@@ -1,0 +1,8 @@
+RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_URI} !^/*.php
+#RewriteCond %{REQUEST_URI} (/|\.php|\.html|\.htm|\.feed|\.pdf|\.raw|/[^.]*)$  [NC]
+#RewriteCond %{REQUEST_URI} !^/index.php*
+RewriteRule !\.(js|gif|jpg|png|css)$ index.php
+#
+#RewriteRule (.*) index.php
