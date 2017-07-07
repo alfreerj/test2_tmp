@@ -5,7 +5,7 @@ class MainController extends Controller
 	protected $errormsg="";
     /* for example - git ignore changes */
     /* 123 занесли в спиок .gitignore */
-    /* 222 */
+    /* 333 */
 	
 	function __construct()
 	{
