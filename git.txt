@@ -20,3 +20,7 @@ $ git remote add pb https://github.com/paulboone/ticgit
 	- раздел (внизу) Danger Zone
 	- удалить Delete this repository
 	- вводим имя репозиторий для подтверждения и удаляем
+
+
+Убедить git, что файл конфига не меняется:
+git update-index --assume-unchanged super.conf
