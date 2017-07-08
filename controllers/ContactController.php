@@ -7,6 +7,7 @@ class ContactController extends Controller
 	function __construct()
 	{
 		/* новая строка, после добавления пользователя */
+        /* изменений не показывает, т.к. коммит уже прошел, но пуш не сделан */
 	}
 	
 	public function getSimplePage()
