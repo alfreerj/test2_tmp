@@ -6,7 +6,7 @@ class ContactController extends Controller
 	
 	function __construct()
 	{
-		
+		/* здесь надо поменять */
 	}
 	
 	public function getSimplePage()
