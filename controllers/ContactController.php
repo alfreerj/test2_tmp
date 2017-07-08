@@ -6,7 +6,7 @@ class ContactController extends Controller
 	
 	function __construct()
 	{
-		
+		/* новая строка, после добавления пользователя */
 	}
 	
 	public function getSimplePage()

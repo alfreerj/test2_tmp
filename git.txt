@@ -23,4 +23,10 @@ $ git remote add pb https://github.com/paulboone/ticgit
 
 
 Убедить git, что файл конфига не меняется:
-git update-index --assume-unchanged super.conf
+git update-index --assume-unchanged application/config/super.conf
+либо всю папку
+git update-index --assume-unchanged application/config/*
+
+Чтобы перестать игнорировать изменения нужно использовать параметр --no-assume-unchanged
+git update-index --no-assume-unchanged application/config/*
+
