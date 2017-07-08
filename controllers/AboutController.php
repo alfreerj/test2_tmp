@@ -7,6 +7,7 @@ class AboutController extends Controller
 	function __construct()
 	{
 		/* new line from UranIvan */
+        /* продолжаем редактировать, еще и совместно изменения в файле ContactController.php сделаем*/
 	}
 	
 	public function getSimplePage()
