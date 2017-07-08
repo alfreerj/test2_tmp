@@ -6,7 +6,7 @@ class AboutController extends Controller
 	
 	function __construct()
 	{
-		
+		/* new line from UranIvan */
 	}
 	
 	public function getSimplePage()
